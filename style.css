@@ -603,3 +603,74 @@ li a {
   color: white;
   z-index: 1;
 }
+
+#testi{
+  display: flex;
+  width: 70%;
+  margin: auto;
+}
+
+.testimonial{
+
+}
+.testimonial h1{
+  font-weight: 800;
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.testimonial p{
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+.testimonial button{
+  background-color: #ffbe30;
+  border: none;
+  padding: 10px 35px;
+  color: rgb(20, 75, 22);
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.baba{
+  display: flex;
+ 
+}
+.service{
+  width: 260px;
+  border: 2px solid black;
+  margin-top: 50px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+.service .rate{
+  margin-left: 10px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.service h4{
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+.service p{
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+.mage{
+  display: flex;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.mage img{
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.uuu{
+  font-weight: 700;
+}
+
+.blog{
+  width: 70%;
+  margin: auto;
+}
