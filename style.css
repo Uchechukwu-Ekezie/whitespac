@@ -527,30 +527,30 @@ li a {
   margin-left: 20px;
   font-weight: 700;
 }
-#hew{
-    height: 600px;
-    width: 100%;
-    display: flex;
-    margin: auto;
-    /* justify-content: space-between; */
-    /* background-color: gray; */
-    /* grid-template-columns: 1fr 1fr; */
+#hew {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  margin: auto;
+  /* justify-content: space-between; */
+  /* background-color: gray; */
+  /* grid-template-columns: 1fr 1fr; */
 }
-.mat{
-    height: 600px;
-    width: 100%;
-    margin-left: 10px;
-    position: relative;
-    /* background-size: cover; */
-    /* background-image: url(./image/image\ 11.png); */
+.mat {
+  height: 600px;
+  width: 100%;
+  margin-left: 10px;
+  position: relative;
+  /* background-size: cover; */
+  /* background-image: url(./image/image\ 11.png); */
 }
-.mat img{
+.mat img {
   position: absolute;
   width: 100%;
   height: 600px;
   /* border-radius: 15px; */
 }
-.mat-contain{
+.mat-contain {
   position: absolute;
   top: 0;
   left: 0;
@@ -560,17 +560,17 @@ li a {
   color: white;
   z-index: 1;
 }
-.mat-contain h1{
+.mat-contain h1 {
   margin-left: 80px;
   margin-top: 300px;
   font-size: 50px;
   font-weight: 700;
 }
-.mat-contain p{
+.mat-contain p {
   margin-left: 80px;
   font-size: 20px;
 }
-.mat-contain button{
+.mat-contain button {
   background-color: #ffbe30;
   border: none;
   padding: 10px 35px;
@@ -580,19 +580,19 @@ li a {
   margin-left: 80px;
   font-weight: 700;
 }
-.bat{
-    height: 600px;
-    width: 98%;
-    position: relative;
-    /* background-image: url(./image/image\ 11.png); */
+.bat {
+  height: 600px;
+  width: 98%;
+  position: relative;
+  /* background-image: url(./image/image\ 11.png); */
 }
-.bat img{
+.bat img {
   position: absolute;
   width: 98%;
   height: 600px;
   /* border-radius: 15px; */
 }
-.bat-contain{
+.bat-contain {
   position: absolute;
   top: 0;
   left: 0;
@@ -604,24 +604,24 @@ li a {
   z-index: 1;
 }
 
-#testi{
+#testi {
   display: flex;
   width: 70%;
   margin: auto;
 }
 
-.testimonial h1{
+.testimonial h1 {
   font-weight: 800;
   font-size: 40px;
   margin-top: 50px;
   margin-bottom: 30px;
 }
-.testimonial p{
+.testimonial p {
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 40px;
 }
-.testimonial button{
+.testimonial button {
   background-color: #ffbe30;
   border: none;
   padding: 10px 35px;
@@ -630,106 +630,103 @@ li a {
   font-weight: 700;
 }
 
-.baba{
+.baba {
   display: flex;
- 
 }
-.service{
+.service {
   width: 260px;
   border: 2px solid black;
   margin-top: 50px;
   border-radius: 5px;
   margin-left: 20px;
 }
-.service .rate{
+.service .rate {
   margin-left: 10px;
   margin-top: 15px;
   margin-bottom: 5px;
 }
-.service h4{
+.service h4 {
   margin-left: 10px;
   margin-bottom: 5px;
 }
-.service p{
+.service p {
   margin-left: 10px;
   margin-bottom: 5px;
 }
-.mage{
+.mage {
   display: flex;
   margin-top: 10px;
   margin-left: 10px;
 }
-.mage img{
+.mage img {
   border-radius: 50%;
   margin-right: 10px;
 }
-.uuu{
+.uuu {
   font-weight: 700;
 }
 
-.blog{
+.blog {
   width: 70%;
   margin: auto;
   /* align-items: center; */
   justify-content: center;
   text-align: center;
   /* margin-left: 800px;*/
-  margin-top: 60px; 
+  margin-top: 60px;
 }
-.blog h1{
+.blog h1 {
   font-weight: 700;
   margin-bottom: 20px;
 }
-.blog p{
+.blog p {
   font-size: 18px;
   margin-bottom: 280px;
 }
-footer{
-  height: 550px;
+footer {
+  height: 700px;
   width: 100%;
   margin-top: 90px;
   background-color: rgb(4, 41, 6);
 }
 
-.pef{
+.pef {
   width: 70%;
   margin: auto;
   display: flex;
   flex-direction: row;
-  
+  /* margin-bottom: 10px; */
 }
-.pef > .conto{
+.pef > .conto {
   height: 500px;
   width: 350px;
   background-color: white;
   display: flex;
   flex-direction: column;
-  /* flex-basis: 0;
-  flex-shrink: 0;
-  flex-grow: 0; */
   max-width: 100%;
   position: relative;
   top: -210px;
   border-radius: 10px;
   margin-right: 20px;
+  margin-bottom: -90px;
 }
-.conto img{
+.conto img {
   width: 350px;
   border-radius: 10px;
 }
-.conto .txt{
+.conto .txt {
   margin-left: 15px;
 }
-.conto .txt h1{
+.conto .txt h1 {
   margin-top: 10px;
   font-size: 25px;
   margin-bottom: 10px;
 }
-.conto .txt p{
+.conto .txt p {
   font-size: 15px;
   margin-bottom: 15px;
 }
-.txt button{
+.txt button {
   background-color: #ffbe30;
   border: none;
   padding: 10px 35px;
@@ -739,10 +736,9 @@ footer{
 }
 .imaaga img {
   position: absolute;
-  
   border-radius: 15px;
 }
-.imaaga .ttytt{
+.imaaga .ttytt {
   position: relative;
   top: 0;
   left: 60;
@@ -753,7 +749,7 @@ footer{
   color: black;
   z-index: 1;
 }
-.ttytt h1{
+.ttytt h1 {
   position: absolute;
   font-size: 16px;
   text-align: center;
@@ -764,4 +760,127 @@ footer{
   background-color: #ffbe30;
   margin-top: 20px;
   margin-left: 20px;
+}
+.doww {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.doo {
+  margin-right: 35px;
+}
+.doo > p {
+  margin-right: 20px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #ffbe30;
+  margin-bottom: 25px;
+}
+.doo > h2 {
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+}
+.dii {
+  margin-right: 30px;
+}
+.dii > p {
+  margin-right: 20px;
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 25px;
+}
+.dii > nav > ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.dii > nav > ul > li {
+  color: white;
+  margin-bottom: 15px;
+}
+
+.dui {
+  margin-right: 30px;
+}
+.dui > p {
+  margin-right: 20px;
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 25px;
+}
+.dui > nav > ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.dui > nav > ul > li {
+  color: white;
+  margin-bottom: 15px;
+}
+
+.nwww > h1 {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 25px;
+}
+.nwww > p {
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 25px;
+}
+label {
+  position: relative;
+  display: flex;
+}
+input[type="email"] {
+  width: 250px;
+  height: 50px;
+  padding: 0 16px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+label > button {
+  background-color: #ffbe30;
+  width: 20px;
+  height: 50px;
+  border: none;
+  padding: 0 16px;
+  color: rgb(20, 75, 22);
+  border-radius: 5px;
+  font-weight: 800;
+  align-items: center;
+  justify-self: center;
+  /* position: absolute; */
+  top: 0;
+  right: 0;
+}
+.lasd {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  color: white;
+  font-size: 18px;
 }
