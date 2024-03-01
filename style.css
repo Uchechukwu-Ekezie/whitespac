@@ -610,9 +610,6 @@ li a {
   margin: auto;
 }
 
-.testimonial{
-
-}
 .testimonial h1{
   font-weight: 800;
   font-size: 40px;
@@ -673,4 +670,98 @@ li a {
 .blog{
   width: 70%;
   margin: auto;
+  /* align-items: center; */
+  justify-content: center;
+  text-align: center;
+  /* margin-left: 800px;*/
+  margin-top: 60px; 
+}
+.blog h1{
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.blog p{
+  font-size: 18px;
+  margin-bottom: 280px;
+}
+footer{
+  height: 550px;
+  width: 100%;
+  margin-top: 90px;
+  background-color: rgb(4, 41, 6);
+}
+
+.pef{
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  
+}
+.pef > .conto{
+  height: 500px;
+  width: 350px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  /* flex-basis: 0;
+  flex-shrink: 0;
+  flex-grow: 0; */
+  max-width: 100%;
+  position: relative;
+  top: -210px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.conto img{
+  width: 350px;
+  border-radius: 10px;
+}
+.conto .txt{
+  margin-left: 15px;
+}
+.conto .txt h1{
+  margin-top: 10px;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.conto .txt p{
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.txt button{
+  background-color: #ffbe30;
+  border: none;
+  padding: 10px 35px;
+  color: rgb(20, 75, 22);
+  border-radius: 5px;
+  font-weight: 800;
+}
+.imaaga img {
+  position: absolute;
+  
+  border-radius: 15px;
+}
+.imaaga .ttytt{
+  position: relative;
+  top: 0;
+  left: 60;
+  width: 350px;
+  height: 262px;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity here */
+  color: black;
+  z-index: 1;
+}
+.ttytt h1{
+  position: absolute;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 800;
+  height: 25px;
+  width: 60px;
+  border-radius: 10px;
+  background-color: #ffbe30;
+  margin-top: 20px;
+  margin-left: 20px;
 }
